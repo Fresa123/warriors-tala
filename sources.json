@@ -1,7 +1,7 @@
 {
   "cuevana": {
     "enabled": true,
-    "homeUrls": ["https://cuevana3i.bid"],
+    "homeUrls": ["https://prueba-json-cuevana.com"],
     "movieDetailPrefixes": ["/pelicula/", "/movie/"],
     "seriesDetailPrefixes": ["/serie/", "/series/", "/tv/"],
     "genreMoviePrefixes": ["/peliculas?genero=", "/movies?genre="],
