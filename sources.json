@@ -1,0 +1,33 @@
+{
+  "cuevana": {
+    "enabled": true,
+    "homeUrls": ["https://cuevana3i.bid"],
+    "movieDetailPrefix": "/pelicula/",
+    "seriesDetailPrefix": "/serie/",
+    "seasonPrefix": "/temporada-",
+    "episodePrefix": "/episodio-",
+    "serverBlockTag": "<li class=\"tab-video-item\">",
+    "serverItemRegex": "<li[^>]*data-server=\"([^\"]*)\"[^>]*>\\s*<span>(.*?)</span>",
+    "languageRegex": "<div class=\"tab-item-name\">\\s*([^<]+)",
+    "languageMap": {
+      "Latino": "Latino",
+      "Castellano": "Castellano",
+      "Subtitulado": "Subtitulado",
+      "Multilenguaje [CC]": "Multilenguaje [CC]"
+    }
+  },
+  "poseidonhd": {
+    "enabled": true,
+    "homeUrl": "https://www.poseidonhd2.co",
+    "useNextData": true,
+    "videoKeys": {
+      "movie": "thisMovie",
+      "episode": "episode"
+    },
+    "languageMap": {
+      "latino": "Latino",
+      "spanish": "Castellano",
+      "english": "Subtitulado"
+    }
+  }
+}
